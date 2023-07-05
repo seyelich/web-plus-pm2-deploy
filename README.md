@@ -1,3 +1,5 @@
 # Деплой приложения на сервер с использованием pm2
 
-Стартеркит проекта по автоматизации деплоя фронтенда и бэкенда при помощи pm2 (pm2 deploy)
+IP адрес 51.250.82.16
+Frontend https://mesto-seyelich.nomoreparties.sbs
+Backend https://api.mesto-seyelich.nomoreparties.sbs
