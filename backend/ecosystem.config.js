@@ -35,8 +35,8 @@ module.exports = {
       ref: DEPLOY_REF,
       repo: 'https://github.com/seyelich/web-plus-pm2-deploy.git',
       path: DEPLOY_PATH,
-      'pre-deploy-local': `scp ./*.env ${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_PATH}`,
-      'post-deploy': 'npm i && npm run build && pm2 kill && pm2 start ecosystem.config.js && pm2 save',
+      'pre-deploy-local': `scp ./.env ${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_PATH}`,
+      'post-deploy': 'cd backend/ && npm i && npm run build && pm2 kill && pm2 start ecosystem.config.js && pm2 save',
     },
   },
 };

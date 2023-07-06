@@ -12,8 +12,7 @@ module.exports = {
       ref: DEPLOY_REF,
       repo: 'https://github.com/seyelich/web-plus-pm2-deploy.git',
       path: DEPLOY_PATH,
-      'pre-deploy-local': 'npm run build',
-      'post-deploy': `mkdir ${DEPLOY_PATH} && scp -Cr ./build/* ${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_PATH}`,
+      'post-deploy': `cd frontend/ && npm i && npm run build && cp -r ./build/* ${DEPLOY_PATH}`,
     },
   },
 };

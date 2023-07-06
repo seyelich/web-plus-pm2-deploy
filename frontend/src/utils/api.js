@@ -139,6 +139,6 @@ class Api {
   }
   }
   // Замените на адрес вашего бэкенда
-  const api = new Api('http://api.mesto-seyelich.nomoreparties.sbs');
+  const api = new Api('https://api.mesto-seyelich.nomoreparties.sbs');
 
   export default api;
