@@ -1,5 +1,13 @@
 # Деплой приложения на сервер с использованием pm2
 
-IP адрес 51.250.82.16
-Frontend https://mesto-seyelich.nomoreparties.sbs
-Backend https://api.mesto-seyelich.nomoreparties.sbs
+Mesto - сервис с интерактивной страницей, куда можно добавлять фотографии различных мест в России, удалять их и ставить лайки. 
+
+- IP-адрес сервера: 51.250.82.16
+- Frontend: https://mesto-seyelich.nomoreparties.sbs
+- Backend: https://api.mesto-seyelich.nomoreparties.sbs
+
+**Функционал**: авторизация, создание базы данных пользователей, поиск/обновление данных о пользователе или карточке, добавление/удаление лайка, создание карточек с местами путешествий, обновление профиля, модальные окна, валидация данных.
+
+**Стэк (backend)**: Typescript, Mongodb, ODM Mongoose, Node.js, PM2.
+
+**Стэк (frontend)**: Webpack, JS, CSS, HTML, БЭМ.
